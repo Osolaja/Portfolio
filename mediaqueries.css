@@ -28,10 +28,6 @@
     display: block;
   }
 
-  .arrow {
-    display: none;
-  }
-
   section,
   .section-container {
     height: fit-content;
@@ -50,20 +46,12 @@
     margin-top: 0;
   }
 
-  footer {
-    height: auto;
-  }
-
-  footer p {
-    text-align: center;
-    padding-top: 10rem;
-  }
+  
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
+  #contact {
+    height: fit-content;
   }
 
   #profile {
@@ -73,11 +61,6 @@
 
   article {
     font-size: 1rem;
-  }
-
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem;
   }
 
   .about-containers,
@@ -125,9 +108,5 @@
 
   .text-container {
     text-align: justify;
-  }
-
-  footer {
-    height: auto;
   }
 }

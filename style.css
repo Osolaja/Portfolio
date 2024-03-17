@@ -312,6 +312,8 @@ section {
 /* Experience Section */
 #experience {
   position: relative;
+  height: auto;
+  padding-bottom: 10rem;
 }
 
 .experience-sub-title {
@@ -354,6 +356,8 @@ article .icon {
 /* Projects section */
 #projects {
   position: relative;
+  height: auto;
+  padding-bottom: 10rem;
 }
 
 .color-container {
@@ -419,12 +423,6 @@ article .icon {
 }
 
 /* Footer */
-footer {
-  height: auto;
-  margin: 0 1rem;
-}
-
-footer p {
+.footer {
   text-align: center;
-  padding-top: 5.5rem;
 }

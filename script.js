@@ -16,5 +16,5 @@ document.querySelector('#experience').scrollIntoView({
 })
 
 document.querySelector('#contact').scrollIntoView({
-    behavior: 'instant'
+    behavior: 'smooth'
 })
