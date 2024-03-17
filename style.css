@@ -175,6 +175,10 @@ section {
   margin: auto 0;
 }
 
+.rounded {
+  border-radius: 50%;
+}
+
 .section__text {
   align-self: center;
   text-align: center;
@@ -284,12 +288,6 @@ section {
   border-radius: 2rem;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
-
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -321,6 +319,10 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+}
+
+.lift {
+  margin-bottom: 1rem;
 }
 
 .experience-details-container {
@@ -412,17 +414,17 @@ article .icon {
   height: 2rem;
 }
 
-
-.email-icon{
+.email-icon {
   height: 2.5rem;
 }
 
 /* Footer */
-footer{
+footer {
   height: 26vh;
   margin: 0 1rem;
 }
 
-footer p{
+footer p {
   text-align: center;
+  padding-top: 10rem;
 }
