@@ -420,11 +420,11 @@ article .icon {
 
 /* Footer */
 footer {
-  height: 26vh;
+  height: auto;
   margin: 0 1rem;
 }
 
 footer p {
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 5.5rem;
 }
